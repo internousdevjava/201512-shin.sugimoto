@@ -12,24 +12,28 @@ public class KisoKadai1 {
 		boolean kuku = true;
 
 	while(kuku){
-		try{System.out.print("1~10の間の整数を入力して下さい: x= ");
+		try{System.out.print("1~100の間の整数を入力して下さい: x= ");
 		str = br.readLine();
 		 x= Integer.parseInt(str);
-		 if(x <= 10){
-		System.out.print("もうひとつ、1~10の間の整数を入力して下さい: y= ");
-		 }else{System.out.println("やり直してください");continue;}
+		 if(x==0 || x >= 101){
+			 System.out.println("やり直してください");continue;
+		 }else{System.out.print("もうひとつ、1~100の間の整数を入力して下さい: y= ");}
 		str = br.readLine();
 		y= Integer.parseInt(str);
-		if(y <=10){
-			break;}
-		else{System.out.println("やり直してください");}}
+		if(y == 0 || y >= 101){
+			System.out.println("やり直してください");continue;
+		}else{}break;}
 		catch(NumberFormatException nfe){}}
 
 		for(int i=1 ; i<=x; i++){
 			for(int j =1; j<=y; j++){
 				if(i*j <= 9){
-				System.out.print("  ");
+				System.out.print("    ");
 				}else if(i*j <= 99){
+					System.out.print("   ");
+				}else if(i*j <= 999){
+					System.out.print("  ");
+				}else if (i*j <= 9999){
 					System.out.print(" ");
 				}else{}
 
