@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
 
-public class kadai3 {
+public class KisoKadai3 {
 
 	public static void main(String[] args) throws IOException {
 //スタート
