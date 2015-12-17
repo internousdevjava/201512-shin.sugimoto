@@ -21,7 +21,7 @@ public class KisoKadai1{
 		str = br.readLine();
 		y= Integer.parseInt(str);
 		if(y == 0 || y >= 101){
-			System.out.println("やり直してください");continue;
+			System.out.println("やり直してください");
 		}else{}break;}
 		catch(NumberFormatException nfe){}}
 
