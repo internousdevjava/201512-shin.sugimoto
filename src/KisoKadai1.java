@@ -37,7 +37,6 @@ public class KisoKadai1 {
 					System.out.print(" ");
 				}else{}
 
-
 		System.out.print(i*j);}
 		System.out.println("");}
 	}
