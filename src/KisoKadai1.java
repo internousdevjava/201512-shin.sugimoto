@@ -12,12 +12,12 @@ public class KisoKadai1 {
 		boolean kuku = true;
 
 	while(kuku){
-		try{System.out.print("1~100の間の整数を入力して下さい: x= ");
+		try{System.out.print("1~100の間の整数を入力して下さい: x = ");
 		str = br.readLine();
 		 x= Integer.parseInt(str);
 		 if(x==0 || x >= 101){
 			 System.out.println("やり直してください");continue;
-		 }else{System.out.print("もうひとつ、1~100の間の整数を入力して下さい: y= ");}
+		 }else{System.out.print("もうひとつ、1~100の間の整数を入力して下さい: y = ");}
 		str = br.readLine();
 		y= Integer.parseInt(str);
 		if(y == 0 || y >= 101){
